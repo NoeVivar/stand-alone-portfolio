@@ -1,9 +1,19 @@
+@import 'normalize'
+@import 'lightgallery.min'
+@import 'lg-transitions.min'
+
+
 /********************
 YOUR STYLES
 *******************/
 
+    
+    
+body {
+      background: yellow;  
+}
 
-figure{
+figure {
     background: teal;
     width: 40%;
 }
