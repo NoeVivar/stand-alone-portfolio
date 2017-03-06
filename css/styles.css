@@ -3,7 +3,10 @@ YOUR STYLES
 *******************/
 
 
-
+figure{
+    background: teal;
+    width: 40%;
+}
 
 /********************
 MEDIA QUERIES
