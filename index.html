@@ -1,50 +1,110 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Stand Alone Portfolio</title>
- 
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <!-- Normalize CSS makes browsers render all elements more consistently -->
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">  
-  
-  
+<head>   
   <!-- YOUR STYLES GO HERE -->
   <link rel="stylesheet" href="scss/styles.scss">
-
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stand Alone Portfolio</title>
+    <style>
+          <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- Normalize CSS makes browsers render all elements more consistently -->
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">  
+@import url('https://fonts.googleapis.com/css?family=Nobile');
+</style>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css" />
 </head>
-<body>
-	
-  <!-- YOUR AWESOME WEBSITE -->
-	<h1>Stand Alone Gallery</h1>
-	
-	<figure>
-	<a href="img/600.jpg">
-	<img src="https://placehold.it/100x100" alt="">
-	</a>
-		<a href="img/500.jpg">
-	<img src="https://placehold.it/100x100" alt="">
-	</a>
-	
-	<figcaption>
-	    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod maiores accusantium unde, esse expedita magni recusandae natus? Repellendus quo totam fugiat, illum sint deserunt corporis, a reiciendis, vero dicta quis.
-	</figcaption>
-	</figure>
-	
+  <body>
+   <h1>Stand Alone Gallery</h1>
+    <main class="gallery">
 
-	
+  <figure>
 
+    <!-- Thumbnail 1 -->
+    <a href="#item-1">
+      <img src="/img/reconstruction.jpg" alt="" id="reconstruct">
+    </a>
+    <figcaption>Our Reconstruction Project i did for my VCD 1 class. in this project we had to take trash and make something new from it. I decided to take a visine box and rework the front into something new, sort of like a redesign. 
+    </figcaption>
 
-  <!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <!-- jQuery Plugin -->
-  <script src="js/plugin.js"></script>
-  <!-- YOUR SCRIPTS GO HERE -->
-  <script src="js/scripts.js"></script>
-  <script src="js/lightgallery.min.js"></script>
+    <!-- Lightbox Overlay 1 -->
+    <div class="overlay" id="item-1">
+      <img src="/img/reconstruction.jpg" alt="">
+      <a href="#">&#8855; Close</a>
+    </div>
 
+  </figure>
+
+  <figure>
+
+    <!-- Thumbnail 2 -->
+    <a href="#item-2">
+      <img src="/img/productionmoodboard-1.jpg" alt="" id="concept-1">
+    </a>
+    <!-- Thumbnail 3 -->
+    <a href="#item-3">
+      <img src="/img/productionmoodboard-2.jpg" alt="" id="concept-2">
+    </a>
+    <figcaption>These two pictures are about my moodboard that I did for my Production Design class. We had to take inspiration from a list of designers given to us and choose one. We also had to choose between a halftone or glitch aesthetic. I decided to pick April Grieman. What I took from here works were shapes and color but decided to put my own twist into it. The top photo is my first concept that I was planning on doing where I show a reflection but felt it was more glitch aesthetic. On the second photo take a big turn on my first concept. I still keep the shapes and color but completely put my own influence of what I find aesthetically pleasing, which is balance.
+    </figcaption>
+
+    <!-- Lightbox Overlay 2 -->
+    <div class="overlay" id="item-2">
+      <img src="/img/productionmoodboard-1.jpg" alt="">
+      <a href="#">&#8855; Close</a>
+    </div>
+
+    <!-- Lightbox Overlay 3 -->
+    <div class="overlay" id="item-3">
+      <img src="/img/productionmoodboard-2.jpg" alt="">
+      <a href="#">&#8855; Close</a>
+    </div>
+
+  </figure>
+
+  <figure>
+
+    <!-- Thumbnail 4 -->
+    <a href="#item-4">
+      <img src="/img/type_page_01.jpg" alt="" id="type">
+    </a>
+    
+    <!-- Thumbnail 5 -->
+    <a href="#item-5">
+      <img src="/img/typeposter_page_1.jpg" alt="" id="poster-1">
+    </a>
+    
+    <!-- Thumbnail 6 -->
+    <a href="#item-6">
+      <img src="/img/typeposter_page_2.jpg" alt="" id="poster-2">
+    </a>
+    
+    <figcaption>Another project for Production Design. For this one we had to take information from a pdf containing infromation about type. It was about 16 pages worth of information and we had to fit it in about two 11x17 page posters. I am very proud of this piece, it was one of the projects that made me realize how good I was starting to become with design prior to the year before.
+    </figcaption>
+
+    
+    <!-- Lightbox Overlay 4 -->
+    <div class="overlay" id="item-4">
+      <img src="/img/type_page_01.jpg" alt="">
+      <a href="#">&#8855; Close</a>
+    </div>
+
+    <!-- Lightbox Overlay 5 -->
+    <div class="overlay" id="item-5">
+      <img src="/img/typeposter_page_1.jpg" alt="">
+      <a href="#">&#8855; Close</a>
+    </div>
+
+    <!-- Lightbox Overlay 6 -->
+    <div class="overlay" id="item-6">
+      <img src="/img/typeposter_page_2.jpg" alt="">
+      <a href="#">&#8855; Close</a>
+    </div>
+
+  </figure>
+  
+
+</main>
 </body>
 </html>

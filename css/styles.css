@@ -1,0 +1,124 @@
+/********************
+YOUR STYLES
+*******************/
+/* line 9, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 13, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  font-family: 'Nobile', sans-serif;
+  color: white;
+  background: url(https://68.media.tumblr.com/7697d11dce463e71cb97cd2f36e7a915/tumblr_nt9btmnlwE1ssqam8o1_500.gif);
+  background-size: auto; }
+
+/* line 24, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+h1 {
+  background: #636113; }
+
+/*Portfolio*/
+/* line 29, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+.gallery {
+  display: flex;
+  flex-flow: row wrap; }
+
+/* line 34, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+figure {
+  background: #636113;
+  padding: 1em;
+  flex: 1 0 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+/* line 44, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+figcaption {
+  color: white; }
+
+/* Lightbox Overlay */
+/* hide  */
+/* line 59, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+.overlay {
+  display: none;
+  /* Overlay Styling   */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 255, 0.25); }
+
+/* show */
+/* line 76, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+.overlay:target {
+  display: block;
+  /* Flexbox Vertical & Horizontal Centering */
+  display: flex;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+/* line 89, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+.overlay img {
+  border: 10px solid black; }
+
+/* Close Button  */
+/* line 94, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+.overlay a {
+  font-size: 3em;
+  color: black;
+  text-decoration: none; }
+
+/* line 99, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+#reconstruct {
+  width: 100%; }
+
+/* line 102, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+#concept-1 {
+  width: 100%; }
+
+/* line 106, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+#concept-2 {
+  width: 100%; }
+
+/* line 109, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+#poster-1 {
+  width: 100%; }
+
+/* line 112, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+#poster-2 {
+  width: 100%; }
+
+/* line 116, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+#type {
+  width: 100%; }
+
+/*Portfolio Stop*/
+/* line 123, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+h1, h2, h3 {
+  background: dodgerblue; }
+
+/* line 128, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+ul {
+  line-height: 1.5em; }
+
+/* line 133, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+a:hover {
+  border-bottom: solid white 2px;
+  color: dodgerblue; }
+
+/* line 139, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+a:link, a:visited {
+  color: dodgerblue;
+  text-decoration: none; }
+
+/* line 143, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+a:focus {
+  background: white; }
+
+/*# sourceMappingURL=styles.css.map */
