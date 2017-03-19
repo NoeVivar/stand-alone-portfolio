@@ -15,7 +15,7 @@ body {
   background: url(https://68.media.tumblr.com/7697d11dce463e71cb97cd2f36e7a915/tumblr_nt9btmnlwE1ssqam8o1_500.gif);
   background-size: auto; }
 
-/* line 24, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
+/* line 23, C:/Users/NoeV/Desktop/stand-alone-portfolio/css/styles.scss */
 h1 {
   background: #636113; }
 
@@ -47,7 +47,7 @@ figcaption {
   /* Overlay Styling   */
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   background: rgba(0, 0, 255, 0.25); }
